@@ -1,4 +1,4 @@
-La famosa escritora Anne Baileys prepara el próximo lanzamiento de su libro.
+<!---La famosa escritora Anne Baileys prepara el próximo lanzamiento de su libro.
  Para ello invertirá una buena suma de dinero en publicidad. 
 Para esta campaña necesita un desarrollador que genere 
 la Landing Page y conseguir una buena cantidad de suscriptores (continúa).
@@ -8,7 +8,7 @@ Le interesa conseguir al menos los siguientes datos:
 Nombre
 Email
 Género
-Edad
+Edad --->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,17 +16,100 @@ Edad
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link id="foto3" rel="stylesheet" href="\css\primerdesafio.css">
+
+bootstrap en javascript
     <title>Document</title>
 </head>
+
 <body>
 <header>
-    <h1>Bienvenidos a nuestra Landing page</h1>
+    <h1 class="display-4 fst-italic text-center bg-light" _msthash="706186" _msttexthash="1903577"> Nuevo libro de  Anne Baileys</h1>
 
-</header>
-
-
+</heade>
 
 
+<section class="foto">
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+    <img src="https://img.freepik.com/foto-gratis/vista-frontal-mujer-leyendo-libro-casa_23-2148832926.jpg?size=338&ext=jpg" class="img-fluid" alt="">
+        <div> <pclass="lead mb-4" _msthash="671606" _msttexthash="45051279">«A la cafeína y el azúcar, mis compañeras en muchas largas noches de escritura».</div></p>
+    <img src="https://i.blogs.es/aa76de/libro/1366_2000.jpg" class="img-fluid" alt="">
+    </div>
+</section>
+
+
+        <div class="d-flex align-items-center p-3 my-3 text-white bg-purple rounded shadow-sm">
+            <div class="lh-1">
+                <h1 class="h6 mb-0 text-white lh-1" _msthash="706771" _msttexthash="138918">Landing Page de Anne</h1>
+                <small _msthash="526591" _msttexthash="91975">Desde 2011</small>
+            </div>
+    </div>
+<section class="lead mb-4" _msthash="671606" _msttexthash="45051279"">
+    <div class=""display-4 fst-italic" _msthash="706186" _msttexthash="1903577"><h1>Prepárate para una relajación profunda y continua que no querrás perderte.</h1></div>
+    <br></b>
+    <div class=""display-4 fst-italic" _msthash="706186" _msttexthash="1903577"><h1>Formulario</h1></div> 
+    <br></b>
+
+
+    <form class="forma col-md-6">
+              <label for="validationTooltip01" class="form-label">Nombre Completo               
+              </label>
+              <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
+              <div class="valid-tooltip">   
+              </div>
+        </div>
+            <div class="col-md-4 position-relative">
+              <label for="validationTooltip02" class="form-label">Apellidos</label>
+              <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+            <div class="valid-tooltip">
+            </div>
+        </div>
+            <div class="col-md-4 position-relative">
+                <label for="validationTooltipUsername" class="form-label">Correo Electronico</label>
+            <div class="input-group has-validation">
+                <span class="input-group-text" id="validationTooltipUsernamePrepend">@
+
+                </span>
+                <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+            <div class="invalid-tooltip">
+                
+            </div>
+            </div>
+            <div class="col-md-3 position-relative">
+              <label for="validationTooltip04" class="form-label">SEXO</label>
+            <select class="form-select" id="validationTooltip04" required>
+                <option selected disabled value="">sin seleccion</option>
+                <option selected disabled value="">MASCULINO</option>
+                <option selected disabled value="">FEMENINO</option>
+            </select>
+              <div class="invalid-tooltip">
+                Please select a valid state.
+              </div>
+            
+            <div class="col-md-3 position-relative">
+              <label for="validationTooltip05" class="form-label">Mi edad</label>
+              <input type="text" class="form-control" id="validationTooltip05" required>
+            <div class="invalid-tooltip">
+                Please provide a valid zip.
+            </div>
+            </div>
+</br>  
+<br>
+</br>  
+            <button class="btn btn-primary " type="submit" id="text-center">Enviar mi formulario
+
+            </button>
     
+      </form>
+</section>
+<br>
+</br>  
+<br>
+</br> 
+<br>
+</br> 
+<br>
+</br>  
 </body>
 </html>

@@ -1,0 +1,19 @@
+.micuerpo {
+    background-color: #1c82b1;
+  }
+
+
+.foto{
+    margin-top:auto
+    
+
+    }
+#foto3{
+    content: 20%;
+    bottom: 20px;
+}
+
+.seccion-rellenar{
+    padding: 1em 3em;
+    margin: 1em 25%;
+}
