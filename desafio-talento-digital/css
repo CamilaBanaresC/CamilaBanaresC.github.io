@@ -1,0 +1,44 @@
+body{
+background-image: url("https://cdn.pixabay.com/photo/2016/04/30/13/12/sutterlin-1362879_960_720.jpg");
+margin:20px;
+border:10%;
+}
+
+nav{
+Background-color:white
+}
+
+#boton{
+    width:100%;
+
+}
+#bibliografia{
+font-family:fantasy;
+
+}
+#texto-bibliografia{
+    font-family:cursive;
+
+}
+
+#tamaño_entrada{
+    width:70%;
+    font-size-adjust:80px;
+    position: relative;
+
+
+}
+header{
+    Background-color:white;
+    width:50%;
+    margin:20px;
+    border-color:blueviolet;
+    border:20%; 
+    padding:05%;
+    
+
+    
+
+}
+
+
