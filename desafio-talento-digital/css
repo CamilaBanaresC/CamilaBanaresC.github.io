@@ -30,15 +30,14 @@ font-family:fantasy;
 }
 header{
     Background-color:white;
-    width:50%;
+    width:70%;
     margin:20px;
     border-color:blueviolet;
     border:20%; 
     padding:05%;
-    
-
-    
-
 }
+
+
+
 
 
