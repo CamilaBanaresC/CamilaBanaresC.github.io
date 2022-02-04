@@ -7,12 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/desafio-talento-digital/css" rel="stylesheet" type="text/css">
+    <a href="participar.html">Pagina para el concurso</a>
 
     <title>Libros de Anne Baileys</title>
 </head>
 
 <body>
-  <nav>
+  
+  <script src="/desafio-talento-digital/js"></script>
+  <!--Aqui comienza el nav-->
+  <nav >
     <ul class="nav nav-pills">
       <li class="nav-item">
         <a class="nav-link active" aria-current="page" href="#">Mi historia</a>
@@ -26,7 +30,17 @@
       <li class="nav-item">
         <a class="nav-link disabled">Consursos</a>
       </li>
+      <li>
+        <div id="Botoninicio">
+        <a href="basededatos.html">
+        <button type="button" class="btn btn-outline-warning justify-content-right" id="iniciosesion" >Iniciar Sesion</button>
+        </a>
+      </div >
+      </li>
     </ul>
+    
+</div>
+</div> 
   </nav>
 
  <!-- AQui termina el nav-->
@@ -38,7 +52,8 @@
           <div class="card-body">
             <h5 class="card-title" id="bibliografia">Dedicatoria. Para ustedes, para nosotros y para ti.</h5>
             <p class="card-text" id ="texto-bibliografia" >El otro día pensé en cuántos libros he regalado a lo largo de mi vida y han sido muchos.
-
+              
+ 
               Ninguno de ellos iba sin dedicatoria.
               
               Es algo que siempre me ha hecho especial ilusión, me apasiona escribirlas y se me pone cara de entusiasmo extremo cuando lo hago.
@@ -49,7 +64,10 @@
             <p class="card-text"><small class="text-muted">Ahora mismo.</small></p>
             <div>
               <img src="https://www.lotenal.gob.mx/Comercial/img/GSE252.jpg" class="card-img-bottom" alt="...">
-              <button type="button" class="btn btn-info" id="boton">Participar</button>   
+              
+              <a href="participar.html">
+              <button type="button"  class="btn btn-info" id="boton"   >Participar</button> 
+              </a>  
             </div>
           </div>
         </div>
@@ -90,6 +108,7 @@
     <footer>
 
     </footer>
-
+    
+  </div>
 </body>
 </html>

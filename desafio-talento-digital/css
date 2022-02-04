@@ -31,6 +31,7 @@ font-family:fantasy;
 header{
     Background-color:white;
     width:70%;
+    height:05%;
     margin:20px;
     border-color:blueviolet;
     border:20%; 
@@ -39,5 +40,20 @@ header{
 
 
 
+
+section{
+    Background-color:white;
+    width:70%;
+    margin:10px;
+    border-color:blueviolet;
+    border:5%; 
+    padding:2%;
+}
+div#Botoninicio button{
+margin-left:800%;
+width:110px;
+
+
+}
 
 
